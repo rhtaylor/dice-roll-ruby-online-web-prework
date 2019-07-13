@@ -5,6 +5,6 @@
 def roll
   y = [0..10]
   x = rand(0..10)
-  print y
+  puts y
 end
 roll
