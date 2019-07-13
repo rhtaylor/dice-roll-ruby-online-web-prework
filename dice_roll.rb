@@ -6,3 +6,4 @@ def roll
   x = rand(0..10)
   puts x
 end
+roll
