@@ -3,8 +3,8 @@
 # Feel free to google "how to generate a random number in ruby"
 
 def roll
-  y = [0, 1, 2, 3, 4, 5, 6]
-  x = rand(0..6)
+  y = [ 1, 2, 3, 4, 5, 6]
+  x = rand(1..6)
   dice = y[x]
   dice
 end
